@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1 {border: 1px solid black;
+             border-collapse: collapse; width: 800px; 
+             margin: 0 auto; font-size: 12px; font-family: dotum; table-layout: fixed; word-break: keep-all;}
+        h2{text-align: center;}
+        th, td{padding: 8px;}
+        th{border-top: 3px solid;border-bottom: 3px solid; vertical-align: top;}
+        td{border-bottom: 1px solid;}
+
+        .col1, .col5{width: 9%;}
+        .col3, .col4{width: 15%;}
+
+        /* selector 인접태그 선택자*/
+        td + td {text-align: left; white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+        td,td + td+td {text-align: center;}
+
+        table a{text-decoration: none;}
+        table a+a{font-size: .7em; color: black}
+        tr+tr:hover{background: #ddd;}
+    </style>
+</head>
+<body>
+    <h2>게시판
+    </h2>
+    <table class="table1">
+        <tr class="index">
+            <th class="col1">글번호</th>
+            <th class="col2">제목</th>
+            <th class="col3">작성일</th>
+            <th class="col4">작성자</th>
+            <th class="col5">조회수</th>
+        </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#">게시글 제목</a><a href="#">[0]</a></td>
+                <td>2022-02-14</td>
+                <td>작성자</td>
+            <td>0</td>
+        </tr>
+        </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#">게시글 제목</a><a href="#">[0]</a></td>
+                <td>2022-02-14</td>
+                <td>작성자</td>
+            <td>0</td>
+        </tr>
+        </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">게시글 제목</a><a href="#">[0]</a></td>
+                <td>2022-02-14</td>
+                <td>작성자</td>
+            <td>0</td>
+        </tr>
+        </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목게시글 제목목게시글 제목</a><a href="#">[0]</a></td>
+                <td>2022-02-14</td>
+                <td>작성자</td>
+            <td>0</td>
+        </tr>
+        </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="#">게시글 제목</a><a href="#">[0]</a></td>
+                <td>2022-02-14</td>
+                <td>작성자</td>
+            <td>0</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
